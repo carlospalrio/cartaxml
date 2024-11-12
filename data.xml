@@ -1,0 +1,28 @@
+<CARTA>
+    <GRUP>
+        <NOM>Entrants</NOM>
+        <PLAT>
+            <NOM>Braves</NOM>
+            <DESCRIPCIO>Mitges llunes de patata, fregides amb salsa brava lleugerament picant.</DESCRIPCIO>
+            <PREU>3,50</PREU>
+        </PLAT>
+        <PLAT>
+            <NOM>Olives</NOM>
+            <DESCRIPCIO>Olives verdes amb un toc de herbes.</DESCRIPCIO>
+            <PREU>2,00</PREU>
+        </PLAT>
+    </GRUP>
+    <GRUP>
+        <NOM>Principals</NOM>
+        <PLAT>
+            <NOM>Fideuà</NOM>
+            <DESCRIPCIO>Fideus amb marisc fresc.</DESCRIPCIO>
+            <PREU>10,00</PREU>
+        </PLAT>
+        <PLAT>
+            <NOM>Entrecot</NOM>
+            <DESCRIPCIO>Entrecot de vedella a la brasa.</DESCRIPCIO>
+            <PREU>15,00</PREU>
+        </PLAT>
+    </GRUP>
+</CARTA>
