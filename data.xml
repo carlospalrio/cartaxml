@@ -8,21 +8,51 @@
         </PLAT>
         <PLAT>
             <NOM>Olives</NOM>
-            <DESCRIPCIO>Olives verdes amb un toc de herbes.</DESCRIPCIO>
+            <DESCRIPCIO>Assortiment d'olives verdes i negres marinades.</DESCRIPCIO>
             <PREU>2,00</PREU>
         </PLAT>
+        <PLAT>
+            <NOM>Calamars</NOM>
+            <DESCRIPCIO>Calamars fregits acompanyats de llimona i allioli.</DESCRIPCIO>
+            <PREU>5,00</PREU>
+        </PLAT>
     </GRUP>
+
     <GRUP>
         <NOM>Principals</NOM>
         <PLAT>
             <NOM>Fideuà</NOM>
-            <DESCRIPCIO>Fideus amb marisc fresc.</DESCRIPCIO>
-            <PREU>10,00</PREU>
+            <DESCRIPCIO>Fideus amb marisc i allioli casolà.</DESCRIPCIO>
+            <PREU>10,50</PREU>
         </PLAT>
         <PLAT>
             <NOM>Entrecot</NOM>
-            <DESCRIPCIO>Entrecot de vedella a la brasa.</DESCRIPCIO>
+            <DESCRIPCIO>Entrecot de vedella a la graella amb patates i verdures.</DESCRIPCIO>
             <PREU>15,00</PREU>
+        </PLAT>
+        <PLAT>
+            <NOM>Bacallà</NOM>
+            <DESCRIPCIO>Bacallà a la llauna amb mongetes del ganxet.</DESCRIPCIO>
+            <PREU>13,50</PREU>
+        </PLAT>
+    </GRUP>
+
+    <GRUP>
+        <NOM>Postres</NOM>
+        <PLAT>
+            <NOM>Flam</NOM>
+            <DESCRIPCIO>Flam de vainilla amb caramel casolà.</DESCRIPCIO>
+            <PREU>3,00</PREU>
+        </PLAT>
+        <PLAT>
+            <NOM>Profiteroles</NOM>
+            <DESCRIPCIO>Profiteroles farcides de nata i cobertes de xocolata.</DESCRIPCIO>
+            <PREU>4,00</PREU>
+        </PLAT>
+        <PLAT>
+            <NOM>Tiramisú</NOM>
+            <DESCRIPCIO>Postre italià amb mascarpone i cafè.</DESCRIPCIO>
+            <PREU>4,50</PREU>
         </PLAT>
     </GRUP>
 </CARTA>
