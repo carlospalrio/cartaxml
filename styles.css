@@ -1,0 +1,139 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #e8f4f9; /* Fondo suave azul claro */
+    color: #3b3b3b; /* Texto oscuro para contraste */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Container Styles */
+#menu {
+    width: 90%;
+    max-width: 900px;
+    padding: 40px;
+    background-color: #ffffff; /* Fondo blanco para el menú */
+    border-radius: 12px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#menu:hover {
+    box-shadow: 0px 12px 36px rgba(0, 0, 0, 0.15);
+}
+
+/* Group Section */
+.GRUP {
+    margin-bottom: 40px;
+}
+
+.GRUP h2 {
+    font-size: 2em;
+    color: #1a73e8; /* Azul vibrante para los encabezados */
+    border-bottom: 3px solid #1a73e8; /* Línea de color azul vibrante */
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+/* Menu Item Styles */
+.PLAT {
+    padding: 20px;
+    border-bottom: 1px solid #d1d8e0; /* Gris suave */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.PLAT:last-child {
+    border-bottom: none;
+}
+
+.PLAT:hover {
+    background-color: #f4f9fc; /* Fondo suave azul claro en hover */
+    transform: translateX(5px);
+}
+
+/* Item Name */
+.NOM {
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #333333; /* Color oscuro para los nombres */
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.PLAT:hover .NOM {
+    color: #1a73e8; /* Color azul vibrante en hover */
+}
+
+/* Item Description */
+.DESCRIPCIO {
+    font-size: 1em;
+    color: #666666; /* Gris suave para las descripciones */
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+/* Item Price */
+.PREU {
+    font-size: 1.2em;
+    color: #34a853; 
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+    #menu {
+        width: 95%;
+        padding: 30px;
+    }
+
+    .GRUP h2 {
+        font-size: 1.8em;
+    }
+
+    .NOM {
+        font-size: 1.3em;
+    }
+
+    .DESCRIPCIO {
+        font-size: 0.95em;
+    }
+
+    .PREU {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+
+    #menu {
+        padding: 20px;
+    }
+
+    .GRUP h2 {
+        font-size: 1.6em;
+    }
+
+    .NOM {
+        font-size: 1.1em;
+    }
+
+    .PREU {
+        font-size: 1em;
+    }
+}
